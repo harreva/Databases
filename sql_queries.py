@@ -2,10 +2,6 @@ import sqlite3
 
 DB_NAME = 'Flight_management.db'
 
-import sqlite3
-
-DB_NAME = 'Flight_management.db'
-
 
 def getFlightsByDestination(destinationCountry):
     """
