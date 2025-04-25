@@ -49,9 +49,9 @@ python sample_data.py
 This will fill the database with sample data (Sample data was created by chatGPT)
 
 run 
-commandLine_app.py 
+commandline_app.py 
 
 This will start the command line application which allows you to interact with the database with a basic command line GUI.
 
-sql_queries.py has SQL queries that have been used to help test the system. 
+sql_queries.py has SQL queries which are used by the command line GUI. 
 
