@@ -1,12 +1,12 @@
-Description
+**Description**
 
 A flight management system using SQLite and Python as part of the DA MSc Computer Science Databases module. The database tracks important information such as pilots' details, airport locations, and flight schedules. The system is designed for easy data insertion and querying.
 
-Tables
+**Tables**
 
 The system consists of three main tables:
 
-PILOT
+**PILOT**
 
 pilotId (PRIMARY KEY)
 firstName
@@ -14,7 +14,7 @@ lastName
 licenseNumber
 
 
-AIRPORT
+**AIRPORT**
 
 airportId (PRIMARY KEY)
 airportName
@@ -22,7 +22,7 @@ city
 country
 
 
-FLIGHT
+**FLIGHT**
 
 flightId (PRIMARY KEY)
 flightNumber
@@ -34,8 +34,8 @@ departureAirportId (FOREIGN KEY to Airport)
 destinationAirportId (FOREIGN KEY to Airport)
 
 
-Setup
-
+**Setup
+**
 Clone this repository
 
 run
